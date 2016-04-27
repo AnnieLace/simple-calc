@@ -12,7 +12,6 @@
 		D355057C1CC7405100C2CC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D355057A1CC7405100C2CC36 /* Main.storyboard */; };
 		D355057E1CC7405100C2CC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D355057D1CC7405100C2CC36 /* Assets.xcassets */; };
 		D35505811CC7405100C2CC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D355057F1CC7405100C2CC36 /* LaunchScreen.storyboard */; };
-		D3BBF36E1CCDE4E200797D30 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BBF36C1CCDE4E200797D30 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		D355057D1CC7405100C2CC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35505801CC7405100C2CC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D35505821CC7405100C2CC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3BBF36C1CCDE4E200797D30 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				D35505761CC7405100C2CC36 /* AppDelegate.swift */,
 				D35505781CC7405100C2CC36 /* ViewController.swift */,
 				D355057A1CC7405100C2CC36 /* Main.storyboard */,
-				D3BBF36C1CCDE4E200797D30 /* HistoryViewController.swift */,
 				D355057D1CC7405100C2CC36 /* Assets.xcassets */,
 				D355057F1CC7405100C2CC36 /* LaunchScreen.storyboard */,
 				D35505821CC7405100C2CC36 /* Info.plist */,
@@ -139,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3BBF36E1CCDE4E200797D30 /* HistoryViewController.swift in Sources */,
 				D35505791CC7405100C2CC36 /* ViewController.swift in Sources */,
 				D35505771CC7405100C2CC36 /* AppDelegate.swift in Sources */,
 			);
@@ -258,7 +254,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Annie.simple-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -270,7 +265,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Annie.simple-calc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -293,7 +287,6 @@
 				D35505871CC7405100C2CC36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
