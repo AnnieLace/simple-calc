@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     var count : Int = 1;
     var total : Int? = nil;
     var displayString : String = "";
-    var historyString : String = "";
     
     @IBOutlet weak var display: UILabel!
     
@@ -127,7 +126,6 @@ class ViewController: UIViewController {
             }
             displayString += "=\(answer)"
             display.text = "\(displayString)"
-            historyString += "\(displayString) "
             operation = nil
             leftString = nil
             rightString = nil
@@ -211,15 +209,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
-    {
-        if(segue.identifier == "historySegue")
-        {
-            let historyViewController = segue.destinationViewController as! HistoryViewController
-            historyViewController.historyString = historyString
-        }
-    }
+
 
 }
 
